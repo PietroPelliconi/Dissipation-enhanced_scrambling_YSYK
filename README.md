@@ -131,7 +131,7 @@ $$
 $$
 
 with $\Delta=1$. The numerical curves are plotted together with the dashed
-large-$p$ predictions. The $p=2$ scan covers $0.2\leq\kappa/\Delta\leq6$,
+large - $p$ predictions. The $p=2$ scan covers $0.2\leq\kappa/\Delta\leq6$,
 while the $p=4,6,8$ scans cover $0.2\leq\kappa/\Delta\leq10$.
 
 ### How to run it
