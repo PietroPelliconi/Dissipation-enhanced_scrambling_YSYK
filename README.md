@@ -3,7 +3,7 @@
 This repository contains the numerical Python code accompanying
 [Dissipation-enhanced scrambling in the SYK model coupled to a lossy cavity](https://arxiv.org/abs/2608.19310).
 
-The scripts solve the large-$N$ Schwinger-Dyson equations while retaining the
+The scripts solve the large - $N$ Schwinger-Dyson equations while retaining the
 full frequency dependence of the bosonic propagators. They generate the
 numerical relaxation-rate and Lyapunov-exponent curves shown in Figures 2 and
 3 of the paper.
@@ -33,7 +33,7 @@ fixed-point iteration in Eq. (68), and extracts the late-time relaxation rate
 from Eq. (69),
 
 $$
-\Gamma=-\text{Im}\Sigma_R(\omega=0).
+\Gamma=-\text{Im} \, \Sigma_R(\omega=0).
 $$
 
 ### What the code does
@@ -91,7 +91,7 @@ The default calculation uses $p=2$, $J=0.05$, $\Delta=1$,
 $\gamma=0.25, 0.5, 1, 2, 4$, and
 $\kappa/\Delta=0.2, 0.4, \ldots, 5.8$.
 
-The dashed large-$\kappa$ guide is fitted to
+The dashed large - $\kappa$ guide is fitted to
 
 $$
 \lambda=A\frac{\Delta^2J^2}{\kappa^3}.
@@ -150,7 +150,7 @@ The model parameters, scan ranges, grid sizes, convergence tolerances, and
 output names are grouped near the top of each file. Keeping the defaults
 reproduces the figures described above. Smaller grids can be useful for quick
 tests, but they may change the converged values, particularly in the
-large-$\kappa$ tails.
+large- $\kappa$ tails.
 
 ## Reference
 
