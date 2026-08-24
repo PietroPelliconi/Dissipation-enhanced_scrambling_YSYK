@@ -144,8 +144,6 @@ The result is saved to `Lyapunov_p_2468.pdf`.
 
 ## Numerical conventions and parameters
 
-All scripts use the Fourier-transform convention
-
 The model parameters, scan ranges, grid sizes, convergence tolerances, and
 output names are grouped near the top of each file. Keeping the defaults
 reproduces the figures described above. Smaller grids can be useful for quick
