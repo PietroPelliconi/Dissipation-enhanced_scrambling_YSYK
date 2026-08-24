@@ -115,7 +115,7 @@ The result is saved to `Lyapunov_p_2.pdf`.
 
 [`YSYK_dissipative_Lyapunov_non_auxiliary_different_p.py`](./YSYK_dissipative_Lyapunov_non_auxiliary_different_p.py)
 generates the numerical curves corresponding to Figure 3(b). It compares the
-finite-$p$ ladder-kernel calculation with the large-$p$ Lyapunov exponent in
+finite - $p$ ladder-kernel calculation with the large - $p$ Lyapunov exponent in
 Eq. (88), testing the dissipation-enhanced scrambling discussed in Sections IV
 B and IV C.
 
