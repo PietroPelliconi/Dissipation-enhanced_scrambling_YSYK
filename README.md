@@ -33,7 +33,7 @@ fixed-point iteration in Eq. (68), and extracts the late-time relaxation rate
 from Eq. (69),
 
 $$
-\Gamma=-\operatorname{Im}\Sigma_R(\omega=0).
+\Gamma=-\text{Im}\Sigma_R(\omega=0).
 $$
 
 ### What the code does
@@ -58,7 +58,7 @@ The default calculation uses
 ### How to run it
 
 ```bash
-python LRSYK_dissipative_relaxation_rate_non_auxiliary.py
+python YSYK_dissipative_relaxation_rate_non_auxiliary.py
 ```
 
 The numerical dots and the dashed large-$p$ curves are saved to
@@ -104,7 +104,7 @@ is printed after the scan.
 ### How to run it
 
 ```bash
-python LRSYK_dissipative_OTOC_Lyapunov_scan_kappa_non_auxiliary.py
+python YSYK_dissipative_Lyapunov_non_auxiliary.py
 ```
 
 The result is saved to `Lyapunov_p_2.pdf`.
@@ -137,7 +137,7 @@ while the $p=4,6,8$ scans cover $0.2\leq\kappa/\Delta\leq10$.
 ### How to run it
 
 ```bash
-python LRSYK_dissipative_OTOC_Lyapunov_scan_kappa_non_auxiliary_different_p.py
+python YSYK_dissipative_Lyapunov_non_auxiliary_different_p.py
 ```
 
 The result is saved to `Lyapunov_p_2468.pdf`.
@@ -145,12 +145,6 @@ The result is saved to `Lyapunov_p_2468.pdf`.
 ## Numerical conventions and parameters
 
 All scripts use the Fourier-transform convention
-
-$$
-F(\omega)=\int dt\,e^{+i\omega t}F(t),
-\qquad
-F(t)=\int\frac{d\omega}{2\pi}\,e^{-i\omega t}F(\omega).
-$$
 
 The model parameters, scan ranges, grid sizes, convergence tolerances, and
 output names are grouped near the top of each file. Keeping the defaults
