@@ -47,7 +47,7 @@ The script:
 4. Scans the dissipation strength from large to small $\kappa$, reusing each
    converged solution as the starting point for the next value.
 5. Computes $\Gamma$ for each $\gamma$ and compares the numerical curves with
-   the large-$p$ prediction in Eq. (54).
+   the large - $p$ prediction in Eq. (54).
 
 The default calculation uses
 
