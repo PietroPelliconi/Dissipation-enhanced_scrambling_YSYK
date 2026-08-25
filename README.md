@@ -36,7 +36,7 @@ $$
 \Gamma=-\text{Im} \, \Sigma_R(\omega=0).
 $$
 
-### What the code does
+### Code synopsis
 
 The script:
 
@@ -55,12 +55,6 @@ The default calculation uses
 - $\gamma=0.15, 0.5, 1, 1.5, 2, 2.5$;
 - $\kappa/\Delta=0.2, 0.4, \ldots, 5.8$.
 
-### How to run it
-
-```bash
-python YSYK_dissipative_relaxation_rate_non_auxiliary.py
-```
-
 The numerical dots and the dashed large-$p$ curves are saved to
 `Relaxation_rate_p_2.pdf`.
 
@@ -75,7 +69,7 @@ condition in Eqs. (79)-(82), following the numerical procedure described in
 Section IV C. The large-dissipation behavior is discussed around Eqs. (92) and
 (96).
 
-### What the code does
+### Code synopsis
 
 For each pair $(\gamma,\kappa)$, the script first obtains the full
 Schwinger-Dyson solution using the functions in the relaxation-rate script. It
@@ -101,12 +95,6 @@ The code fits $A$ independently for every $\gamma$ curve over
 $4.0\leq\kappa/\Delta\leq5.8$ and plots their average. The fitted value of $A$
 is printed after the scan.
 
-### How to run it
-
-```bash
-python YSYK_dissipative_Lyapunov_non_auxiliary.py
-```
-
 The result is saved to `Lyapunov_p_2.pdf`.
 
 ## 3. Lyapunov exponent for different interaction orders
@@ -119,7 +107,7 @@ finite - $p$ ladder-kernel calculation with the large - $p$ Lyapunov exponent in
 Eq. (88), testing the dissipation-enhanced scrambling discussed in Sections IV
 B and IV C.
 
-### What the code does
+### Code synopsis
 
 The script repeats the full Schwinger-Dyson and ladder-kernel calculation for
 $p=2,4,6,8$ at fixed $\gamma=1$. It uses damped fixed-point iteration for
@@ -134,21 +122,7 @@ with $\Delta=1$. The numerical curves are plotted together with the dashed
 large - $p$ predictions. The $p=2$ scan covers $0.2\leq\kappa/\Delta\leq6$,
 while the $p=4,6,8$ scans cover $0.2\leq\kappa/\Delta\leq10$.
 
-### How to run it
-
-```bash
-python YSYK_dissipative_Lyapunov_non_auxiliary_different_p.py
-```
-
 The result is saved to `Lyapunov_p_2468.pdf`.
-
-## Numerical conventions and parameters
-
-The model parameters, scan ranges, grid sizes, convergence tolerances, and
-output names are grouped near the top of each file. Keeping the defaults
-reproduces the figures described above. Smaller grids can be useful for quick
-tests, but they may change the converged values, particularly in the
-large- $\kappa$ tails.
 
 ## Reference
 
