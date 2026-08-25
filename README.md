@@ -55,7 +55,7 @@ The default calculation uses
 - $\gamma=0.15, 0.5, 1, 1.5, 2, 2.5$;
 - $\kappa/\Delta=0.2, 0.4, \ldots, 5.8$.
 
-The numerical dots and the dashed large-$p$ curves are saved to
+The numerical dots and the dashed large - $p$ curves are saved to
 `Relaxation_rate_p_2.pdf`.
 
 ## 2. Lyapunov exponent for $p=2$
