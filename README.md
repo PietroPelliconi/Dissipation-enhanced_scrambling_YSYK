@@ -133,7 +133,7 @@ If you use these codes, please cite:
 > (2026).
 
 ```bibtex
-@article{Pelliconi2026DissipationEnhanced,
+@article{PLR2026DissipationEnhanced,
   title         = {Dissipation-enhanced scrambling in the {SYK} model coupled to a lossy cavity},
   author        = {Pelliconi, Pietro and Lapierre, Bastien and Ryu, Shinsei},
   year          = {2026},
