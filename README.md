@@ -134,7 +134,7 @@ If you use these codes, please cite:
 
 ```bibtex
 @article{PLR2026DissipationEnhanced,
-  title         = {Dissipation-enhanced scrambling in the {SYK} model coupled to a lossy cavity},
+  title         = {Dissipation-enhanced scrambling in the SYK model coupled to a lossy cavity},
   author        = {Pelliconi, Pietro and Lapierre, Bastien and Ryu, Shinsei},
   year          = {2026},
   eprint        = {2608.19310},
